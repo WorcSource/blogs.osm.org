@@ -13,7 +13,7 @@ bundle install
 
 Run the following command to build the site for the first time:
 ```
-bundle exec pluto build -t osm -o build
+bundle exec pluto build -t theme -o build
 ```
 
 The contents of the feeds is stored in an SQLite database in the file `planet.db`, which is kept out of git. The site will be built into the `build` folder using the `osm` template. These static pages can then be easily served using e.g. apache, nginx or similar. The configuration to do this for blogs.openstreetmap.org is available in the [OSMF Chef repository](https://github.com/openstreetmap/chef)
