@@ -1,6 +1,6 @@
-# OpenStreetMap Blogs aggregator
+# Worcester Source Member Blogs aggregator
 
-This repository contains the list of feeds and the configuration required to generate the contents of [blogs.openstreetmap.org](https://blogs.openstreetmap.org).
+This repository contains the list of feeds and the configuration required to generate the contents of [blogs.worcestersource.club](https://blogs.worcestersource.club/), kindly forked from the [OpenStreetMap Blogs aggregator](https://github.com/gravitystorm/blogs.osm.org).
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Run the following command to build the site for the first time:
 bundle exec pluto build -t theme -o build
 ```
 
-The contents of the feeds is stored in an SQLite database in the file `planet.db`, which is kept out of git. The site will be built into the `build` folder using the `osm` template. These static pages can then be easily served using e.g. apache, nginx or similar. The configuration to do this for blogs.openstreetmap.org is available in the [OSMF Chef repository](https://github.com/openstreetmap/chef)
+The contents of the feeds is stored in an SQLite database in the file `planet.db`, which is kept out of git. The site will be built into the `build` folder using the `template` template. These static pages can then be easily served using e.g. apache, nginx or similar.
 
 ## Subsequent updates
 
@@ -28,7 +28,7 @@ You need to run the `build` command each time there is an update of theme, or li
 
 ## Theme
 
-The OSM theme is available in the theme folder, thus is available by default. You can check this by running
+The theme is available in the theme folder, thus is available by default. You can check this by running
 ```
 bundle exec pluto list
 ```
@@ -40,3 +40,9 @@ To update the CSS in the theme, update the Sass, as documented at the start of t
 ## Feed Policy
 
 The policy of what feeds are suitable for inclusion, along with guidance on how to propose changes to the feeds list, is available in [FEEDS.md](FEEDS.md).
+
+## Deployment
+
+The site is hosted by [Netlify](https://app.netlify.com/), and configured to automatically deploy upon every commit on the `master` branch which is pushed to GitHub.
+
+Additionally, because of the dynamic content pulled in from multiple RSS feeds, we're using [cron-job.org](https://cron-job.org/) to trigger a built of the site once a day.
