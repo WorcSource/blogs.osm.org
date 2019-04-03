@@ -2,7 +2,7 @@
   <head>
     <title><%= site.title %></title>
     <dateModified><%= site.updated %></dateModified>
-    <ownerName>OpenStreetMap</ownerName>
+    <ownerName>WorcesterSource</ownerName>
   </head>
   <body>
     <% site.feeds.each do |feed| %><outline type="rss" text="<%= feed.title %>" xmlUrl="<%= feed.url %>" title="<%= feed.title %>"/>

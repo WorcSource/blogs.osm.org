@@ -1,4 +1,4 @@
-# Worcester Source Member Blogs aggregator
+# Planet Worcester
 
 This repository contains the list of feeds and the configuration required to generate the contents of [blogs.worcestersource.club](https://blogs.worcestersource.club/), kindly forked from the [OpenStreetMap Blogs aggregator](https://github.com/gravitystorm/blogs.osm.org).
 
