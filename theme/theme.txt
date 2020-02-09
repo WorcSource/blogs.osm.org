@@ -1,12 +1,14 @@
 # pakman manifest
 
-index.html  blank.html.erb
+index.html  hacker.html.erb
+blank.html  blank.html.erb
 cards.html  blank.cards.html.erb
 atom.xml    atom.xml.erb
 rss20.xml   rss.xml.erb
 opml.xml    opml.xml.erb
 
 
+css/hacker.css
 css/blank.css
 css/blank.cards.css
 css/font-awesome.css

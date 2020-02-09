@@ -1,0 +1,67 @@
+// use  sass hacker.scss hacker.css
+//  or  sass --watch hacker.scss:hacker.css
+
+
+$primary-color:   #000000;   //  black for title, etc.
+$secondary-color: #828282;   // grey-ish
+
+$link-color:          $primary-color; 
+$link-visited-color:  $secondary-color;
+
+$font-size: 10pt;
+$small-font-size: 8pt;
+$smaller-font-size: 7pt;
+
+
+
+body {
+  font-family:  Verdana;
+  color:        $secondary-color;
+  font-size:    $font-size;
+}
+
+.container {
+  margin: 10px 60px 10px 60px;  // top right bottom left
+}
+
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+.masthead {
+  color: $primary-color;
+
+  h1 { font-size: $font-size;
+       margin-bottom: 0;
+       margin-top:    0;
+     }
+}
+
+.item-feed-title {
+  font-size: $small-font-size;  
+
+  a {
+    color: $secondary-color;
+      &:visited {
+      color: $secondary-color;
+    }
+  }
+}
+
+.item-points,
+.item-published {
+  font-size: $smaller-font-size;    
+}
+
