@@ -5,7 +5,7 @@ atom.xml    atom.xml.erb
 rss20.xml   rss.xml.erb
 opml.xml    opml.xml.erb
 
-assets/triangle.png
+assets/images/planet.png
 
 assets/css/main.css
 
