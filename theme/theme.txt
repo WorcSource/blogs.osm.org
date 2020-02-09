@@ -1,32 +1,19 @@
 # pakman manifest
 
-index.html  hacker.html.erb
-blank.html  blank.html.erb
-cards.html  blank.cards.html.erb
+index.html  index.html.erb
 atom.xml    atom.xml.erb
 rss20.xml   rss.xml.erb
 opml.xml    opml.xml.erb
 
+assets/triangle.png
 
-css/hacker.css
-css/blank.css
-css/blank.cards.css
-css/font-awesome.css
+assets/css/main.css
 
-i/feed-icon-10x10.png
-i/logo.png
-i/view-headlines.png
-i/view-snippets.png
-i/view-standard.png
-
-js/jquery-2.0.3.min.js
-js/blank.js
-
-font/fontawesome-webfont.eot
-font/fontawesome-webfont.svg
-font/fontawesome-webfont.ttf
-font/fontawesome-webfont.woff
-font/FontAwesome.otf
+assets/fonts/source-sans-pro/source-sans-pro-regular.woff2
+assets/fonts/source-sans-pro/source-sans-pro-bold.woff2
+assets/fonts/fontawesome/fontawesome-webfont.woff2
+assets/fonts/fontawesome/fontawesome-webfont.woff
+assets/fonts/fontawesome/fontawesome-webfont.ttf
 
 .htaccess
 robots.txt
