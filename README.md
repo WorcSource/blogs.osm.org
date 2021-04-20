@@ -1,6 +1,6 @@
 # Planet Worcester
 
-This repository contains the list of feeds and the configuration required to generate the contents of [planet.worcester.space](https://planet.worcester.space/), kindly forked from the [OpenStreetMap Blogs aggregator](https://github.com/gravitystorm/blogs.osm.org).
+This repository contains the list of feeds and the configuration required to generate the contents of [planet.worcestersource.club](https://planet.worcestersource.club/), kindly forked from the [OpenStreetMap Blogs aggregator](https://github.com/gravitystorm/blogs.osm.org).
 
 ## Requirements
 
